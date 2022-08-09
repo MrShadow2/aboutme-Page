@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+        
+        .middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+        .container:hover .image {
+          opacity: 0.3;
+        }
+        
+        .container:hover .middle {
+          opacity: 1;
+        }
+        
+        .text {
+          background-color: #04AA6D;
+          color: white;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+    </style>
+</head>
+<body bgcolor="yellow">
+   <u><u> <h1 >Welcome to Arpan's Page</h1></u></u>
+
+    <ul>
+        <li><h2><a href="#aboutme">About Me</a></h2></li>
+        <li><h2><a href="#edu">My Education</a></h2></li>
+        <li><h2><a href="contact.html">Contact Me</a></h2></li>
+    </ul>
+    <p><u>My Favorite Dish => kolkata Street Food</u> </p>
+        <div class="container">
+          <img src="bir.jpg" alt="Avatar" class="image" style="width:300px">
+          <div class="middle">
+            <div class="text">Kolkata Biryani</div>
+          </div>
+        </div><hr>
+        <section id="aboutme">
+          <div style="background-color: green;">
+            <h1>About Me</h1><hr>
+            <h2>Name -> Arpan Pandey</h2>
+            <pre><h2>Currently Studying -> BTech CSE
+                                                    From-Lovely Professional University </h2></pre>
+            </address></h2>
+            <p>
+              <b>My name is Arpan Pandey ,currently I am persuing my BTech CSE from <u>Lovely Professional University</u>
+                  I am a third year student and i want to continue my future in front end web develoment and want to be get place through on 
+                  campus placement with good package ❤️👌 .  </b></p>
+         </section>
+        
+            <details><summary>why I want to become engineer</summary>
+            <p>To get a good package  </p></details>
+            <hr>
+       
+           <section style="background-color: green;" id="edu">
+            <h2><u>My Education</u></h2>
+            <table border="2" style="border-collapse: collapse;">
+                <tr>
+                    <th colspan="3">My Education</th>
+                </tr>
+                <tr>
+                    <th>Degree</th>
+                    <th>Year</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>2020</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">B.Tech</td>
+                    <td>2021</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Finally! an Engineer</td>
+                </tr>
+            </table>
+           </section>
+           
+            <footer>  
+               <h1><p>© 2022 Arpan's Page</p></h1>
+                </footer>  
+
+    
+    
+</body>
+</html>
